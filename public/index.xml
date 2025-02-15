@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rahul Goel</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Rahul Goel</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Feb 2025 23:15:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making of an ANPR system</title>
+      <link>http://localhost:1313/blogs/test-blog-2/</link>
+      <pubDate>Fri, 14 Feb 2025 23:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/blogs/test-blog-2/</guid>
+      <description>&lt;p&gt;An &lt;strong&gt;Automated Number Plate Recognition (ANPR)&lt;/strong&gt; system that combines deep learning and computer vision techniques to detect and recognize vehicle number plates. The project includes a web-based application built using Django, enabling you to interact with the ANPR system through an intuitive interface.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;demo&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/rahulogoel/PlateCam/blob/main/demo.gif&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Preprocessing&lt;/strong&gt;: Efficient handling and annotation of dataset images using XML files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deep Learning Model&lt;/strong&gt;: Implementation of You Only Look Once (YOLO) v5 model for real time plate detection and recognition.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OCR Integration&lt;/strong&gt;: Integration with Pytesseract for extracting text from detected plates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualization&lt;/strong&gt;: Use of tools like Matplotlib and Plotly for visualizing data and results.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TensorBoard&lt;/strong&gt;: Evaluated the model with the help of tensorflow&amp;rsquo;s tensorboard.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline&lt;/strong&gt;: Well defined steps and modular approach which makes it easier to manage and maintain the workflow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Application&lt;/strong&gt;: A Django-based web app to provide a user-friendly interface for uploading images and obtaining results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;Check out the dataset that I used for Automated Number Plate Recognition:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research on Chest X-Rays</title>
+      <link>http://localhost:1313/blogs/test-blog-1/</link>
+      <pubDate>Thu, 13 Feb 2025 23:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/blogs/test-blog-1/</guid>
+      <description>&lt;p&gt;This research focuses on &lt;strong&gt;Multi-label classification&lt;/strong&gt; of Chest X-ray images with the help of various &lt;strong&gt;Deep Learning models&lt;/strong&gt; like DenseNet121, MobileNetV2, etc; to predict multiple lung diseases which include Emphysema, Hernia, Pneumonia, Cardiomegaly, and many more.&lt;/p&gt;
+&lt;p&gt;It also addresses the problem of &lt;strong&gt;Class Imbalance&lt;/strong&gt; with the help of techniques like &lt;strong&gt;Undersampling&lt;/strong&gt; and &lt;strong&gt;Oversampling&lt;/strong&gt; in the dataset which itself is &lt;strong&gt;challenging&lt;/strong&gt; as undersampling removes instances from the majority class, and oversampling adds copies of instances from the minority class to the dataset. Thus, the lack of a clear definition of minority and majority class instances prevents a straightforward application of these two methods. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0950705124009894&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;👋 Hi I&amp;rsquo;m Rahul Goel! I&amp;rsquo;m a Data Science enthusiast pursuing my Bachelor&amp;rsquo;s in Computer Science at the University of Delhi. I like working with data - exploring patterns, building machine learning models, and deriving meaningful insights that drive real-world impact.&lt;/p&gt;
+&lt;p&gt;I always seek opportunities to diversify my skill set by exploring various fields that would complement each other in unexpected ways, allowing me to make a meaningful impact. So I engrained this idea to my lifestyle.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
